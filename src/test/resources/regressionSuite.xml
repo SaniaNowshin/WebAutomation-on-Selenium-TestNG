@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<suite name="Dailyfinance Automation">
+    <test name="User Login">
+        <classes>
+            <class name="testRunner.LoginTestRunner"></class>
+        </classes>
+    </test>
+    <test name="User Registration">
+        <classes>
+            <class name="testRunner.RegistrationTestRunner"></class>
+        </classes>
+    </test>
+    <test name="User Profile Update">
+        <classes>
+            <class name="testRunner.ProfileUpdateRunner"></class>
+        </classes>
+    </test>
+    <test name="Add cost">
+        <classes>
+            <class name="testRunner.AddCostRunner"></class>
+        </classes>
+    </test>
+</suite>
